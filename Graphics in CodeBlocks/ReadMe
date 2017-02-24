@@ -1,0 +1,13 @@
+Copy all *.h files to CodeBlocks\MinGW\include where u install it
+Copy all *.a files to CodeBlocks\MinGW\lib
+open CodeBloack
+      open Settings\Compiler\Linker Settings
+      Add CodeBlocks\MinGW\lib\libbgi.a file to  link libraries
+      Copy below lines to Other link options
+          -lbgi
+          -lgdi32
+          -lcomdlg32
+          -luuid
+          -loleaut32
+          -lole32
+#include<graphics.h> in your cpp file and use graphics ....
