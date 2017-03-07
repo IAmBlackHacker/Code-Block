@@ -1,0 +1,5 @@
+Go to Settings in Code Block
+then Compiler Settings->Linker Settings->Other Linker Option
+paste there following line
+-lwinmm
+(thats all done).
